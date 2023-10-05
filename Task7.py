@@ -9,7 +9,7 @@ NUM_ROOMS = 10
 LIGHTS_PER_ROOM = NUM_LIGHTS // NUM_ROOMS
 
 # Global MongoDB variables
-mongo_uri = "mongodb+srv://harrier:harrier@sit729.xs2wk12.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = "mongodb+srv://username:pwd@sit729.xs2wk12.mongodb.net/?retryWrites=true&w=majority"
 mongo_client = MongoClient(mongo_uri)
 db = mongo_client.test
 collection = db.task7
